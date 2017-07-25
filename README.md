@@ -1,4 +1,4 @@
-# bulma-badge
+# bulma.styl-badge
 This is a fork for the Bulma extension element named "badge" to display a number on text, button, ... for implementation into [Bulma.styl](https://github.com/log1x/bulma.styl). 
 
 Preview
