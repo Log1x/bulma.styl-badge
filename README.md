@@ -1,37 +1,36 @@
-# bulma.styl-badge
-This is a fork for the Bulma extension element named "badge" to display a number on text, button, ... for implementation into [Bulma.styl](https://github.com/log1x/bulma.styl). 
+# Bulma.styl Badge
 
-Preview
------
+[![npm](https://img.shields.io/npm/v/bulma.styl-badge.svg)](https://www.npmjs.com/package/bulma.styl-badge)
+[![npm](https://img.shields.io/npm/dm/bulma.styl-badge.svg)](https://www.npmjs.com/package/bulma.styl-badge)
 
-![Badge Element](https://img15.hostingpics.net/pics/978922ScreenShot20170712at202349.png)
+This is a 1:1 Stylus translation of the [bulma-badge](https://github.com/Wikiki/bulma-badge) extension by [Wikiki](https://github.com/Wikiki).
 
-Usage
------
+This is generally for use with [Bulma.styl](https://github.com/log1x/bulma.styl). 
 
-```html
-<div class="column is-8">
-  <div class="block">
-    <span class="badge" data-badge="">
-      Notifications
-    </span>
-    <span class="badge" data-badge="8">
-      Notifications
-    </span>
-    <span class="badge" data-badge="88">
-      Notifications
-    </span>
-    <span class="badge" data-badge="888">
-      Notifications
-    </span>
-  </div>
-  <div class="block">
-    <button class="button badge" data-badge="">Button</button>
-    <button class="button badge" data-badge="8">Button</button>
-  </div>
-  <div class="block">
-    <button class="button is-primary badge" data-badge="">Button</button>
-    <button class="button is-primary badge" data-badge="8">Button</button>
-  </div>
-</div>
+## Installation 
+
+### Install from npm
+
+```sh
+$ npm install bulma.styl-badge
 ```
+
+### Install from Yarn 
+
+```sh
+$ yarn add bulma.styl-badge
+```
+
+## Usage 
+
+```
+@require "~bulma.styl-badge/badge"
+```
+
+## Documentation 
+
+Documentation can be found at Wikiki's [extension documentation](https://wikiki.github.io/bulma-extensions/badge).
+
+## License
+
+Released under the MIT license.
